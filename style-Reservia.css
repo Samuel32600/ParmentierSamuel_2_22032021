@@ -1,0 +1,87 @@
+/*police du site*/
+
+@font-face
+{font-family:'Raleway';
+src: url(Police/static/);}
+
+/*zone d'en tete logo + menu*/
+
+header  /*box du header*/
+{border: 2px solid black;
+display: flex;
+justify-content: space-between;}
+
+#menu-header /*box des 3 élements de navigation*/
+{border: 1px solid green;
+display: flex;
+align-items: center;
+border-radius: 10px;}
+
+#bloc-Hébergements-Activités  /*box Hébergements + activités*/
+{border: 1px solid red;
+display: flex;
+align-items: center;
+border-radius: 10px;}
+
+#line  /*ligne au dessus de Hébergements*/
+{height: 4px;
+width: 100%;
+background-color:#0065FC;}
+
+.style-Hébergements  /*couleur + style Hébergements*/
+{color: #0065FC;}
+
+.style-Activités  /*style Hébergements*/
+{padding-left: 80px;}
+
+.style-inscrire  /*couleur + style S'inscrire*/
+{color: #0065FC;
+font-weight: bold;
+padding-left: 80px;}
+
+/*zone des filtres*/
+
+#barre-de-recherche  /*box des filtres*/
+{display: flex;
+border: 1px red solid;
+align-items: center;}
+
+.icone-texte  /*attribut des 4 filtres*/
+{display: flex;
+align-items: center;
+justify-content: space-between;
+border: 1px solid #F2F2F2;
+width: justify;
+height: 40px;
+border-radius: 20px;
+margin-left: 50px;}
+
+.texte  /*margin sur le texte des filtres*/
+{margin: 20px;}
+
+.logo  /*Attribut des logos de la barre Filtre*/
+{display: flex;
+background-color:#DEEBFF;
+width: 40px;
+height: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+color:#0065FC ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>planification vacances Reservia</title>
         <link rel="stylesheet" href="style-Reservia.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
     </head>
 
     <body>
@@ -11,15 +12,43 @@
         <header>
             <img src="images/logo/Reservia.svg" alt="logo du site Reservia">
             <nav>
-                <ul id="menu-header">
-                    <div> <!--box Hébergements-->
-                    <div id="line"></div> <!--ligne Hébergements-->
-                    <li><p class="style-Hébergements">Hébergements</p</li>
-                    </div>   
-                    <li class="menu">Activités</li>
-                    <li class="menu"><p class="style-inscrire">S'inscrire</p></li>
-                </ul>
+                <div id="menu-header">
+
+                    <div id="bloc-Hébergements-Activités">
+                        <div id="bloc-Hébergements">
+                        <div id="line"></div> <!--ligne Hébergements-->
+                        <p class="style-Hébergements">Hébergements</p>
+                        </div>
+                        <p class="style-Activités">Activités</p>
+                    </div>
+                    <p class="style-inscrire">S'inscrire</p>
+                </div>
             </nav>
         </header>
+
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de reve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <div id="barre-de-recherche">
+
+                <h2>Filtres</h2>
+                <div class="icone-texte">
+                <div class="logo"><i class="fas fa-money-bill-wave"></i></div>
+                <p class="texte">Economique</p>
+                </div>
+                <div class="icone-texte">
+                <div class="logo"><i class="fas fa-child"></i></div>
+                <p class="texte">Familial</p>
+                </div>
+                <div class="icone-texte">
+                <div class="logo"><i class="fas fa-heart"></i></i></div>
+                <p class="texte">Romantique</p>
+                </div>
+                <div class="icone-texte">
+                <div class="logo"><i class="fas fa-dog"></i></div>
+                <p class="texte">Animaux autorisés</p>
+                </div>               
+            </div>
+        </section>
     </body>
 </html>
