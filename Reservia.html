@@ -8,12 +8,10 @@
     </head>
 
     <body>
-    
         <header>
             <img src="images/logo/Reservia.svg" alt="logo du site Reservia">
             <nav>
                 <div id="menu-header">
-
                     <div id="bloc-Hébergements-Activités">
                         <div id="bloc-Hébergements">
                         <div id="line"></div> <!--ligne Hébergements-->
@@ -29,25 +27,38 @@
         <section>
             <h1>Trouvez votre hébergement pour des vacances de reve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <div id="barre-de-recherche">
+            <div id="barre-de-recherche">  <!--bloc recherche-->
+                <div class="icone-localisation">
+                <div class="localisation"><i class="fas fa-map-marker-alt"></i></div>
+                <form>
+                    <p class="Formulaire"> Marseille, France</p>
+                </form>
+                </div>
+                <p class="Recherche">Rechercher</p>
+            </div>
 
-                <h2>Filtres</h2>
+            <div id="barre-de-filtre">  <!--bloc des filtres-->
+                <h3>Filtres</h3>
                 <div class="icone-texte">
-                <div class="logo"><i class="fas fa-money-bill-wave"></i></div>
+                <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
                 <p class="texte">Economique</p>
                 </div>
                 <div class="icone-texte">
-                <div class="logo"><i class="fas fa-child"></i></div>
+                <div class="icone"><i class="fas fa-child"></i></div>
                 <p class="texte">Familial</p>
                 </div>
                 <div class="icone-texte">
-                <div class="logo"><i class="fas fa-heart"></i></i></div>
+                <div class="icone"><i class="fas fa-heart"></i></i></div>
                 <p class="texte">Romantique</p>
                 </div>
                 <div class="icone-texte">
-                <div class="logo"><i class="fas fa-dog"></i></div>
+                <div class="icone"><i class="fas fa-dog"></i></div>
                 <p class="texte">Animaux autorisés</p>
                 </div>               
+            </div>
+            <div class="information">
+            <div class="info"><i class="fas fa-info"></i></div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
     </body>
