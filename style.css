@@ -1,0 +1,154 @@
+/*police du site*/
+
+@font-face
+{font-family:'Raleway';
+src: url()}
+body
+{width: 1440px;
+height:1890px;
+padding: 10px 50px;
+
+border: solid 2px red;}
+
+/*header*/
+
+header  /*box header*/
+{display: flex;
+justify-content: space-between;
+border: 1px black solid;
+padding: 2px;}
+
+.nav /*box nav*/
+{display: flex;
+border: 1px solid green}
+
+.housing-Activity
+{border: 1px solid red;
+display: flex;}
+
+/*search*/
+.search-area /*box search*/
+{border: 1px black solid;}
+
+.search-bar /*box seach-bar*/
+{border: 3px solid black;
+display: flex;
+width: 420px;
+height: 50px;
+margin-bottom: 10px;}
+
+.icon-search /*localization*/
+{border: 1px solid black;
+background-color: #f2f2f2;
+width: 50px;}
+
+.city /*city, country*/
+{border: 1px solid red;
+width: 240px;
+padding-left: 10px;}
+
+.search /*button search*/
+{background-color: #0065FC;
+width: 130px;}
+
+.filter-area
+{border: 1px solid black;
+display: flex;
+flex-direction: column;}
+
+.four-filters  /*box global filters*/
+{border: 4px green solid;
+display:flex;
+width:70%;
+height: 50px;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;}
+
+.box-filter /*box for one filter*/
+{border: 1px solid red;
+display: flex;
+align-items: center;
+height: 50px;
+border-radius: 25px;}
+
+.icon-filter /*box icon filter*/
+{border: 2px solid black;
+background-color: #deebff;
+}
+
+.text-filter  /*box text filter*/
+{margin-left: 15px;
+margin-right: 15px;}
+
+.info  /*box global info*/
+{display: flex;
+width: 30%;
+border: 4px solid black;}
+
+.icon-info  /*box icon info*/
+{border: 1px solid green;}
+
+.text-info  /*box text info*/
+{border: 1px red solid;}
+
+
+
+.middle /*box housing + popular*/
+{border: 2px solid yellow;
+display: flex;
+justify-content:space-between}
+
+.housing /*box housing*/
+{background-color: #f2f2f2;
+width: 880px;
+height: 630px;
+border: 1px blue solid;
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+padding-right: 20px;}
+
+.popular  /*box popular*/
+{background-color: #f2f2f2;
+width: 420px;
+height: 630px;
+border: 1px blue solid;
+display: flex;
+flex-direction: column;}
+
+.six-box-housing
+{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+border: 1px solid red;}
+
+.three-box-popular
+{display: flex;
+flex-direction: column;
+border: solid 1px red;
+}
+
+.box-housing
+{border: 1px solid black;
+width: 250px;
+height: 200px;
+background-color: white;
+margin-bottom: 30px;}
+
+.box-popular
+{border: 1px solid black;
+width: 340px;
+height: 145px;
+background-color: white;
+margin-bottom: 30px;}
+
+.test
+{align-self: flex-start;}
+
+
+
+
+
+
+
