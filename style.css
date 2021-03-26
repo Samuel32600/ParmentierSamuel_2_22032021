@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     border: 1px black solid;
-    padding: 2px;
+    padding: 0px 50px;
 }
 
 /*box nav*/
@@ -32,7 +32,9 @@ header{
 }
 
 /*search + filter*/
-
+.search-area-filter{
+    padding-left: 50px;
+}
 
 
 /*search*/
@@ -138,10 +140,11 @@ header{
 /*housing + popular*/
 
 /*box housing + popular*/
-.middle{
+.housing-must-popular{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;              
+    flex-wrap: wrap-reverse;
+    padding: 0px 50px;            
 }
 
 /*housing*/
@@ -201,26 +204,30 @@ header{
     background-color: #f2f2f2;
     border: 10px blue solid;
     width: 420px;
-    height: auto;    
+    height: auto;
+    display: flex;
+    flex-direction: column;  
 }
 
 /* box text + icon*/
 .text-icon-popular{
+    border: 2px solid green;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid green;
 }
 
 /*box popular x3*/
 .three-box-popular{   
     border: solid 4px red;
-    margin-left: 37px;         
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
 }
 
 /*popular size box*/
-.box-popular{  
-    display: flex;
+.box-popular{
+    display: flex;    
     width: 345px;
     max-width: 100%;
     height: 145px;
@@ -238,11 +245,6 @@ header{
     border-radius: 10px 0px 0px 10px;
 }
 
-.text-star{
-    padding-left: 20px;
-}
-
-
 /*full-star*/
 .fas.fa-star{
     color: #0065FC;
@@ -253,6 +255,139 @@ header{
     color: #f2f2f2;
 }
 
+/*activities*/
+
+.section-activities{
+    margin: 50px 50px
+}
+
+
+.box-activities{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vieux-port{
+    width: 300px;
+    height: 445px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+    
+}
+
+.picture-vieux-port{
+    height: 390px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.box-fort-frioul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fort{
+    width: 300px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+}
+
+.picture-fort{
+    height: 180px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.frioul{
+    width: 300px;
+    height: 160px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+}
+
+.picture-frioul{
+    height: 110px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.calanques{
+    width: 300px;
+    height: 445px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+}
+
+.picture-calanques{
+    height: 390px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.box-notre-dame-longchammp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notre-dame{
+    width: 300px;
+    height: 195px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+}
+
+.picture-notre-dame{
+    height: 140px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.longchamp{
+    width: 300px;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #f2f2f2;
+}
+
+.picture-longchamp{
+    height: 150px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text-activities{
+    padding-left: 10px;
+}
+
+
 /*footer*/
 
 /*box footer*/
@@ -261,7 +396,7 @@ header{
     justify-content: flex-start;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    padding: 0px 15px;
+    padding: 0px 50px;
 }
 
 .bloc-footer{
