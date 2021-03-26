@@ -27,16 +27,22 @@ header{
 }
 
 .housing-Activity{    
-    display: flex;
+    display: flex;        
+}
+
+.text-register{
     margin-left: 100px;
+    color: #0065FC;
+    font-weight: bolder;
 }
 
 .text-nav{
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .border-top:hover{
-    border-top: 2px solid #0065FC;      
+    border-top: 2px solid #0065FC;
+    color:#0065FC;
 }
 
 
@@ -78,7 +84,9 @@ header{
     width: 130px;
     text-align:center;
     padding: 1rem 1.25rem;    
-    border: none;    
+    border: none;
+    color: white;
+    font-weight: bolder;
 }
 
 /*filter*/
@@ -146,6 +154,7 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    color: #0065FC;
 }
 
 /*box text info*/
@@ -208,12 +217,12 @@ header{
 
 /*title Hebergements à Marseille*/
 .housing-marseille{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /*text Afficher plus*/
 .more-information{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /*box popular*/
