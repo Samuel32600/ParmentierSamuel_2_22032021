@@ -15,25 +15,34 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    border: 1px black solid;
     padding: 0px 50px;
+    flex-wrap: wrap;  
 }
 
 /*box nav*/
 .nav{
     display: flex;
-    flex-wrap: wrap;
-    border: 1px solid green;    
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;      
 }
 
-.housing-Activity{
-    border: 1px solid red;
+.housing-Activity{    
     display: flex;
+    margin-left: 100px;
 }
+
+.text-nav{
+    padding-left: 100px;
+}
+
+.border-top:hover{
+    border-top: 2px solid #0065FC;      
+}
+
 
 /*search + filter*/
 .search-area-filter{
-    padding-left: 50px;
+    padding: 0px 50px;
 }
 
 
@@ -81,7 +90,11 @@ header{
     flex-wrap: wrap;
     max-width: 55%;
     align-items: center;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-weight: bold;
+
 }
 
 /*box for one filter*/
@@ -91,6 +104,9 @@ header{
     align-items: center;    
     height: 50px;
     border-radius: 25px;
+}
+.box-filter:hover{
+    background-color:#deebff;
 }
 
 /*box icon filter*/
@@ -170,8 +186,9 @@ header{
     height: 200px;
     margin: 10px 0px;
     border-radius: 10px;
-    border: solid 1px black;
-    padding: 4px; 
+    padding: 4px;
+    box-shadow: 3px 3px 1px #d6d6d6;
+
 }
 
 /*image housing*/
@@ -202,27 +219,25 @@ header{
 /*box popular*/
 .popular{
     background-color: #f2f2f2;
-    border: 10px blue solid;
     width: 420px;
     height: auto;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    border-radius: 20px  
 }
 
 /* box text + icon*/
 .text-icon-popular{
-    border: 2px solid green;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 /*box popular x3*/
-.three-box-popular{   
-    border: solid 4px red;
+.three-box-popular{
     display: flex;
     flex-direction: column;
-    align-items: center;      
+    align-items: center;
 }
 
 /*popular size box*/
@@ -232,8 +247,11 @@ header{
     max-width: 100%;
     height: 145px;
     max-height: 100%;
-    border: 1px solid black;    
+    border-radius: 15px;    
     background-color: white;
+    margin: 12px 0px;
+    padding: 4px;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .photo-popular{
@@ -245,14 +263,32 @@ header{
     border-radius: 10px 0px 0px 10px;
 }
 
+.title-box-popular{
+    margin: 10px 10px 5px 20px;
+}
+
+.text-box-popular{
+    margin: 10px 10px 5px 20px;
+}
+
+.star-popular{
+    margin: 40px 10px 0px 20px;
+}
+
+
+
+
+
+
+
 /*full-star*/
 .fas.fa-star{
     color: #0065FC;
 }
 
 /*empty-star*/
-.far.fa-star{
-    color: #f2f2f2;
+.color .fas.fa-star {
+    color: #d9d9d9
 }
 
 /*activities*/
@@ -272,7 +308,7 @@ header{
     width: 300px;
     height: 445px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
     
 }
 
@@ -296,7 +332,7 @@ header{
     width: 300px;
     height: 240px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .picture-fort{
@@ -313,7 +349,7 @@ header{
     width: 300px;
     height: 160px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .picture-frioul{
@@ -330,7 +366,7 @@ header{
     width: 300px;
     height: 445px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .picture-calanques{
@@ -353,7 +389,7 @@ header{
     width: 300px;
     height: 195px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .picture-notre-dame{
@@ -370,7 +406,7 @@ header{
     width: 300px;
     height: 210px;
     border-radius: 15px;
-    box-shadow: 3px 3px 1px #f2f2f2;
+    box-shadow: 3px 3px 1px #d6d6d6;
 }
 
 .picture-longchamp{
