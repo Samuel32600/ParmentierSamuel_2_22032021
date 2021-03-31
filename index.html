@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
     <title>Reservia</title>
-    <link rel="stylesheet" href="../fontawesome/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="phone.css"/>
 </head>
 
 <body>
-    <header>
-        <img src="images/logo/Reservia.svg" alt="logo site Reservia">
-        <nav class="nav">
-            <div class="housing-Activity">
-                <p class="text-nav border-top">
-                    Hébergements
-                </p>
-                <p class="text-nav border-top">
-                    Activités
-                </p>
-            </div>
-            <p class="text-register">
-                S'inscrire
-            </p>
-        </nav>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="box-logo">     
+                <img class="logo-reservia" src="images/logo/Reservia.svg" alt="logo site Reservia">
+            </h1>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li>
+                        <a href="#" class="text-housing border-top">
+                            Hébergements
+                        </a>
+                    </li>           
+                    <li>
+                        <a href="#" class="text-activity border-top">
+                            Activités
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#" class="text-register">
+                            S'inscrire
+                        </a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>                                           
     </header>
 
 
@@ -35,50 +47,52 @@
             En plein centre ville ou en pleine nature
         </p>
         <form class="search-bar">
-            <span class="icon-search">
+            <div class="icon-search">
                 <i class="fas fa-map-marker-alt"></i>
-            </span>
+            </div>
             <input class="city" value="Marseille, France" />
             <button class="search">
-                Rechercher
+                <p class="text-search">
+                    Rechercher
+                </p>               
             </button>
         </form>
         <div>
             <div class="four-filters">
                 <span>
-                    <h3>Filtres</h3>
+                    <h3 class="text-filter">Filtres</h3>
                 </span>
                 <div class="box-filter">
-                    <span class="icon-filter">
+                    <div class="icon-filter">
                         <i class="fas fa-money-bill-wave"></i>
-                    </span>
-                    <p class="text-filter">
+                    </div>
+                    <span class="text-filter">
                         Economique
-                    </p>
+                    </span>
                 </div>
                 <div class="box-filter">
-                    <span class="icon-filter">
+                    <div class="icon-filter">
                         <i class="fas fa-child"></i>
-                    </span>
-                    <p class="text-filter">
+                    </div>
+                    <span class="text-filter">
                         Familial
-                    </p>
+                    </span>
                 </div>
                 <div class="box-filter">
-                    <span class="icon-filter">
+                    <div class="icon-filter">
                         <i class="fas fa-heart"></i>
-                    </span>
-                    <p class="text-filter">
+                    </div>
+                    <span class="text-filter">
                         Romantique
-                    </p>
+                    </span>
                 </div>
                 <div class="box-filter">
-                    <span class="icon-filter">
+                    <div class="icon-filter">
                         <i class="fas fa-dog"></i>
-                    </span>
-                    <p class="text-filter">
+                    </div>
+                    <span class="text-filter">
                         Animaux autorisés
-                    </p>
+                    </span>
                 </div>
             </div>
             <div class="info">

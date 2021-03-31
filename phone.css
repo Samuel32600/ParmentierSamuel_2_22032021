@@ -1,0 +1,166 @@
+@media screen and (max-width:768px)
+{
+    .search-area-filter{
+        background-color: yellow;
+        width: 100%;
+    }
+    /*box popular*/
+    .popular{
+        background-color: #f2f2f2;
+        width: 100%;
+    }
+    
+    /*popular size box*/
+    .box-popular{           
+        width: 90%;       
+   }
+
+    .photo-popular{
+        width: 35%;        
+    }
+
+    /*housing*/
+    /*box housing*/
+    .housing{
+        width: 1000%     
+    }
+
+    /*box housing x6*/
+    .six-box-housing{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*housing size box*/
+    .box-housing{    
+        width: 90%;
+    }
+
+    *activities*/
+
+/*box section activities*/
+.section-activities{
+    margin: 0px 0px
+}
+
+/*box activities*/
+.box-activities{
+    
+    flex-direction: column;
+    align-items: center; 
+    background-color: lawngreen;
+}
+
+/*box vieux-port*/
+.vieux-port{
+    width: 90%;
+    height: 11.8em;
+    border-radius: 15px;      
+}
+
+/*picture vieux-port*/
+.picture-vieux-port{
+    height: 8.4em;    
+}
+
+/*box Fort de Pomegues + Iles du Frioul*/
+.box-fort-frioul{
+    width: 100%;
+    align-items: center;    
+}
+
+/*box Fort de Pomegues*/
+.fort{
+    width: 90%;
+    height: 11.8em;    
+}
+
+/*picture Fort de Pomegues*/
+.picture-fort{
+    height: 8.4em;    
+}
+
+/*box Iles du Frioul*/
+.frioul{
+    width: 90%;
+    height: 11.8em;    
+}
+
+/*picture Iles du Frioul*/
+.picture-frioul{
+    height: 8.4em;    
+}
+
+/*box Calanques*/
+.calanques{
+    width: 90%;
+    height: 11.8em;
+}
+
+/*pictures Calanques*/
+.picture-calanques{
+    height: 8.4em;
+}
+
+/*box Notre Dame de la Garde + Parc Longchamp*/
+.box-notre-dame-longchammp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/*box Notre Dame de la Garde*/
+.notre-dame{
+    width: 18.8em;
+    height: 12.2em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #d6d6d6;
+    margin: 10px 0px;
+}
+
+/*picture Notre Dame de la Garde*/
+.picture-notre-dame{
+    height: 8.6em;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*box Parc Longchamp*/
+.longchamp{
+    width: 18.8em;
+    height: 13em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #d6d6d6;
+    margin: 10px 0px;
+}
+
+/*picture Parc Longchamp*/
+.picture-longchamp{
+    height: 9.4em;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*text section activities*/
+.text-activities{
+    padding-left: 10px;
+}
+
+ 
+
+
+
+}
+
+
+
+
