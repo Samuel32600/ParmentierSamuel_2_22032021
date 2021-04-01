@@ -13,66 +13,77 @@
 .container{
     width: auto;
     max-width: 100%;
-    margin: 0 auto;}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    border: 1px solid blue;
+    padding:0px 10px;}
 
-.box-logo{margin: 0px;}
+.box-logo{
+    margin: 0px;
+    border: 1px solid green;
+}
 
 /*logo reservia*/
 .logo-reservia{
     max-width: 100%;
     height: auto;
+    border: solid 1px red;
 }
-
-.main-header .container{
+/*menu nav*/
+.main-nav{
+    border: hotpink solid 1px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 33%;
 }
 
-.main-nav ul{    
-    text-align: center;}
-
+/*nav housing + activities*/
 .main-nav-list{
+    display: flex;
+    border: 1px solid green;
+    list-style: none;
+    height: 100%;
     margin: 0px;
+    padding: 15px;
+    width: 63%;
+    justify-content: space-around;
 }
 
-.main-nav li{
-    display: inline;
+/*nav register*/
+.nav-register{
+    list-style: none;
 }
 
-.main-nav a{
-    display: inline-block;
-    padding: .5em 1.5em;
-}
-
+/*text register*/
 .text-register{    
     color: #0065FC;
     font-weight: bolder;
     text-decoration: none;    
 }
 
+/*text-activity*/
 .text-activity{    
     color: #0065FC;
-    text-decoration: none;     
+    text-decoration: none;   
 }
 
+/*text-housing*/
 .text-housing{
     color: #0065FC;
-    text-decoration: none;     
+    text-decoration: none;        
 }
 
-.border-top:hover{
-    border-top: 3px solid #0065FC;
+/*border for housing and activities*/
+.border:hover{
+    border-top: 3px solid #0065FC
 }
-
 
 /*search + filter*/
 .search-area-filter{
     padding: 0px;
-    background-color: #0065FC;
 }
-
 
 /*search*/
 
@@ -119,9 +130,9 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition-duration: 0.5s;
-    font-weight: bold;
-    flex-wrap: wrap;
+    font-weight: bold;    
 }
+
 /*text-filters*/
 .text-filter{
     margin-right: 2rem;
@@ -134,12 +145,12 @@
     align-items: center;
     margin-right: 2rem;
     border: 2px solid #d9d9d9;
-    border-radius: 2rem;
-    
+    border-radius: 2rem;    
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
 }
+
 .box-filter:hover{
     background-color:#deebff;
 }
@@ -327,7 +338,7 @@
 
 /*box section activities*/
 .section-activities{
-    margin: 0px 0px
+    margin: 0px 10px;
 }
 
 /*box activities*/
@@ -485,11 +496,11 @@
     display: flex;
     justify-content: flex-start;
     background-color: #f2f2f2;
-    flex-wrap: wrap;
+    
 }
 
 .bloc-footer{
-    padding-right: 180px;
+    padding-right: 200px
 }
 
 footer a{
