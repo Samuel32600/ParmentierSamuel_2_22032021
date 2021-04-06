@@ -1,3 +1,6 @@
+@media screen and (min-width:768.01px) and (max-width:992px)
+{
+
 /*header*/
 /*box header*/
 .container{
@@ -47,6 +50,7 @@
     color: #0065FC;
     font-weight: bolder;
     text-decoration: none;
+
 }
 
 /*text-activity*/
@@ -73,6 +77,7 @@
 /*search + filter*/
 .search-area-filter{
     padding: 0px;
+    padding-bottom: 10px;
 }
 
 /*search*/
@@ -83,7 +88,7 @@
     max-width: 100%;   
     overflow: auto;
     border-radius: 10px;
-    margin-bottom: 10px;        
+    margin-bottom: 10px;         
 }
 
 /*localization*/
@@ -117,7 +122,8 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition-duration: 0.5s;
-    font-weight: bold;    
+    font-weight: bold;
+    flex-wrap: wrap;  
 }
 
 /*text-filters*/
@@ -135,6 +141,7 @@
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .box-filter:hover{
@@ -195,16 +202,19 @@
 .housing-must-popular{
     display: flex;
     justify-content: space-between;
-    padding: 0px 0px;           
+    padding: 0px 0px;
+    flex-wrap: wrap-reverse;
+    width: 100%;               
 }
 
 /*housing*/
 /*box housing*/
 .housing{
     background-color: #f2f2f2;
-    width: 55%;
+    width: 100%;
     height: auto;
-    border-radius:1.25em;  
+    border-radius:1.25em;
+    margin-bottom: 20px; 
 }
 
 /*box housing x6*/
@@ -262,11 +272,12 @@
 /*box popular*/
 .popular{
     background-color: #f2f2f2;
-    width: 35%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;    
+    border-radius: 20px;
+    margin-bottom: 20px;  
 }
 
 /* box text + icon*/
@@ -292,10 +303,11 @@
     max-height: 100%;
     border-radius: 15px;    
     background-color: white;
-    margin-bottom: 0.6em;
+    margin-bottom: 20px;
     padding: 4px;
     box-shadow: 3px 3px 1px #d6d6d6;
 }
+
 /*box picture popular*/
 .photo-popular{
     width: 40%;
@@ -308,16 +320,16 @@
 
 /*title picture popular*/
 .title-box-popular{
-    margin: 10px 10px 5px 20px;
+    margin: 10px 10px 5px 40px;
 }
 
 /*text picture popular*/
 .text-box-popular{
-    margin: 10px 10px 5px 20px;
+    margin: 10px 10px 5px 40px;
 }
 /*star picture popular*/
 .star-popular{
-    margin: 40px 10px 0px 20px;
+    margin: 40px 10px 0px 40px;
 }
 
 /*full-star*/
@@ -340,7 +352,8 @@
 .box-activities{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    padding: 0px 50px;
+    margin-bottom: 20px;
 }
 
 .box:hover{
@@ -493,37 +506,21 @@
     padding-left: 10px;
 }
 
-
-
-
 /*footer*/
 /*box footer*/
 .footer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     background-color: #f2f2f2;    
 }
 
 /*bloc footer*/
 .bloc-footer{
-    padding-right: 200px
+    padding-right: 0px
 }
 
 footer a{
     text-decoration: none;
     color: black;
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
