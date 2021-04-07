@@ -28,8 +28,7 @@
         display: flex;
         width: auto;
         flex-direction: column-reverse;
-        align-items: flex-end;
-        justify-content: none;
+        align-items: flex-end;        
         min-width: 100%;        
     }
 
@@ -38,7 +37,7 @@
         display: flex;
         justify-content: space-around;       
         margin: 0;
-        padding: 15x 0;
+        padding: 15px 0;
         width: 100%;
         height: 100%;
         list-style: none                      
@@ -96,11 +95,10 @@
     .icon-search{    
         background-color: #f2f2f2;
         padding: 1rem;
-        border-bottom: 2px solid #f2f2f2;
-        border-top: 2px solid #f2f2f2;
-        border-left:2px solid #f2f2f2;
+        border-bottom: 2px solid #d9d9d9;
+        border-top: 2px solid #d9d9d9;
+        border-left:2px solid #d9d9d9;
         border-radius: 10px 0 0 10px;
-        border-right: 2px solid #f2f2f2;
     }
     
     /*city, country*/
@@ -108,8 +106,8 @@
         width: 180px;
         padding-left: 10px;
         font-weight: bolder;
-        border-bottom: 2px solid #f2f2f2;
-        border-top: 2px solid #f2f2f2;
+        border-bottom: 2px solid #d9d9d9;
+        border-top: 2px solid #d9d9d9;
         border-left: none;
         border-right: none;
     }

@@ -1,22 +1,15 @@
-/*font family Raleway*/
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap%27);
-
-* {
-    font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
-}
+@media screen and (min-width:992.001px) and (max-width:1199px)
+{
 
 /*-----header-----*/
 /*box header*/
 .container{
-    max-width: 1440px;
-    width: auto;    
+    width: auto;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    padding: 0 10px;   
-}
+    padding:0 10px;}
 
 /*box logo*/
 .box-logo{
@@ -82,29 +75,27 @@
 
 /*-----search + filter-----*/
 .search-area-filter{
-    max-width: 1440px;
-    margin: auto;
-    padding: 0 10px;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 /*search*/
 /*box search-bar*/
-.search-bar{
+.search-bar{    
     display: inline-flex;
     max-width: 100%;   
     overflow: auto;    
-    margin-bottom: 10px;     
+    margin-bottom: 10px;        
 }
 
 /*localization*/
 .icon-search{    
     background-color: #f2f2f2;
     padding: 1rem;
-    border-bottom: 2px solid #f2f2f2;
-    border-top: 2px solid #f2f2f2;
-    border-left:2px solid #f2f2f2;
-    border-radius: 10px 0 0 10px;
-    border-right: 2px solid #f2f2f2;  
+    border-bottom: 2px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
+    border-left:2px solid #d9d9d9;
+    border-radius: 10px 0 0 10px; 
 }
     
 /*city, country*/
@@ -112,8 +103,8 @@
     width: 180px;
     padding-left: 10px;
     font-weight: bolder;
-    border-bottom: 2px solid #f2f2f2;
-    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: none;
     border-right: none; 
 }
@@ -136,7 +127,7 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition-duration: 0.5s;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 /*text-filters*/
@@ -174,13 +165,8 @@
     margin: -2px;
     color: #0065FC;   
 }
-/*icon filter*/
 .fas.fa-search{
     display: none;
-}
-
-.text-search{
-    font-style: normal;
 }
 
 /*box text filter*/
@@ -219,18 +205,18 @@
 .housing-must-popular{
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
-    margin: auto;
-    padding: 0 10px;        
+    padding: 0;
+    flex-wrap: wrap-reverse;           
 }
 
 /*housing*/
 /*box housing*/
 .housing{
     background-color: #f2f2f2;
-    width: 60%;
+    width: 100%;
     height: auto;
-    border-radius:1.25em;  
+    border-radius:1.25em;
+    margin-bottom: 20px;
 }
 
 /*box housing x6*/
@@ -244,15 +230,11 @@
 .box-housing{
     background-color: white;
     width: 30%;
-    height: auto;
+    height: 35%;
     margin-bottom: 1em;
     border-radius: 0.625em;
     padding: 4px;
     box-shadow: 3px 3px 1px #d6d6d6;    
-}
-
-.box-housing:hover{
-    box-shadow:3px 3px 1px grey;
 }
 
 /*image housing*/
@@ -267,7 +249,7 @@
 
 /* text box housing*/
 .title-box-housing, .text-box-housing, .star-housing{
-    margin: 7px 8px;
+    margin: 7px 10px;
 }
 
 .box-housing a{    
@@ -288,11 +270,12 @@
 /*box popular*/
 .popular{
     background-color: #f2f2f2;
-    width: 38%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;    
+    border-radius: 20px;
+    margin-bottom: 30px;   
 }
 
 /* box text + icon*/
@@ -323,9 +306,10 @@
     box-shadow: 3px 3px 1px #d6d6d6;
 }
 
+
 /*box picture popular*/
 .photo-popular{
-    width: 36%;
+    width: 45%;
     max-width: 100%;
     height: 100%;    
     max-height: 100%;
@@ -335,17 +319,16 @@
 
 /*title picture popular*/
 .title-box-popular{
-    margin: 10px 0 5px 50px;
+    margin: 10px 10px 5px 50px;
 }
 
 /*text picture popular*/
 .text-box-popular{
-    margin: 10px 0 5px 50px;
+    margin: 10px 10px 5px 50px;
 }
-
 /*star picture popular*/
 .star-popular{
-    margin: 30px 0 0 50px;
+    margin: 40px 10px 0 50px;
 }
 
 /*full-star*/
@@ -355,21 +338,20 @@
 
 /*empty-star*/
 .color .fas.fa-star {
-    color: #d9d9d9;
+    color: #d9d9d9
 }
 
 /*-----activities-----*/
 /*box section activities*/
 .section-activities{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 10px; 
+    margin: 0 10px;
+    padding-bottom: 20px;
 }
 
 /*box activities*/
 .box-activities{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-around;
 }
 
 .box:hover{
@@ -377,12 +359,12 @@
 }
 
 /*box vieux-port*/
-.box-vieux-port{
+.vieux-port{
     width: 23.5%;
     height: 27.8em;
     border-radius: 15px;
     box-shadow: 3px 3px 1px #d6d6d6;
-    margin: 10px 0;   
+    margin: 10px 0;  
 }
 
 /*picture vieux-port*/
@@ -405,7 +387,7 @@
 }
 
 /*box Fort de Pomegues*/
-.box-fort{
+.fort{
     width: 100%;
     height: 15.2em;
     border-radius: 15px;
@@ -425,7 +407,7 @@
 }
 
 /*box Iles du Frioul*/
-.box-frioul{
+.frioul{
     width: 100%;
     height: 10.7em;
     border-radius: 15px;
@@ -445,7 +427,7 @@
 }
 
 /*box Calanques*/
-.box-calanques{
+.calanques{
     width: 23.5%;
     height: 27.8em;
     border-radius: 15px;
@@ -473,7 +455,7 @@
 }
 
 /*box Notre Dame de la Garde*/
-.box-notre-dame{
+.notre-dame{
     width: 100%;
     height: 12.4em;
     border-radius: 15px;
@@ -493,7 +475,7 @@
 }
 
 /*box Parc Longchamp*/
-.box-longchamp{
+.longchamp{
     width: 100%;
     height: 13.2em;
     border-radius: 15px;
@@ -519,38 +501,25 @@
 
 /*text section activities*/
 .text-activities{
-    padding-left: 10px;
+    margin: 0;
 }
 
 /*-----footer-----*/
 /*box footer*/
 .footer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     background-color: #f2f2f2;
-    padding-left: 50px;
-    width: 100%;       
+    padding-left: 0;   
 }
 
 /*bloc footer*/
 .bloc-footer{
-    padding-right: 200px
+    padding-right: 0;
 }
 
 footer a{
     text-decoration: none;
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

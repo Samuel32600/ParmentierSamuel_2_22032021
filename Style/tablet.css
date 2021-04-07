@@ -1,4 +1,4 @@
-@media screen and (min-width:992.001px) and (max-width:1199px)
+@media screen and (min-width:768.001px) and (max-width:992px)
 {
 
 /*-----header-----*/
@@ -13,7 +13,7 @@
 
 /*box logo*/
 .box-logo{
-    margin: 0;
+    margin: 0px;
 }
 
 /*logo reservia*/
@@ -76,27 +76,26 @@
 /*-----search + filter-----*/
 .search-area-filter{
     padding: 0;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /*search*/
 /*box search-bar*/
-.search-bar{    
+.search-bar{
     display: inline-flex;
     max-width: 100%;   
-    overflow: auto;    
-    margin-bottom: 10px;        
+    overflow: auto;
+    margin-bottom: 10px;         
 }
 
 /*localization*/
 .icon-search{    
     background-color: #f2f2f2;
     padding: 1rem;
-    border-bottom: 2px solid #f2f2f2;
-    border-top: 2px solid #f2f2f2;
-    border-left:2px solid #f2f2f2;
-    border-radius: 10px 0 0 10px;
-    border-right: 2px solid #f2f2f2; 
+    border-bottom: 2px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
+    border-left:2px solid #d9d9d9;
+    border-radius: 10px 0 0 10px; 
 }
     
 /*city, country*/
@@ -104,8 +103,8 @@
     width: 180px;
     padding-left: 10px;
     font-weight: bolder;
-    border-bottom: 2px solid #f2f2f2;
-    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: none;
     border-right: none; 
 }
@@ -117,7 +116,7 @@
     color: white;
     font-weight: bolder;
     border-radius: 0 10px 10px 0; 
-    border: none;   
+    border: none;
 }
 
 /*filter*/
@@ -128,7 +127,8 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition-duration: 0.5s;
-    font-weight: bold;    
+    font-weight: bold;
+    flex-wrap: wrap;  
 }
 
 /*text-filters*/
@@ -146,6 +146,7 @@
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .box-filter:hover{
@@ -206,8 +207,9 @@
 .housing-must-popular{
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    flex-wrap: wrap-reverse;           
+    padding: 0 0;
+    flex-wrap: wrap-reverse;
+    width: 100%;               
 }
 
 /*housing*/
@@ -217,7 +219,7 @@
     width: 100%;
     height: auto;
     border-radius:1.25em;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 /*box housing x6*/
@@ -231,11 +233,15 @@
 .box-housing{
     background-color: white;
     width: 30%;
-    height: 35%;
+    height: auto;
     margin-bottom: 1em;
     border-radius: 0.625em;
     padding: 4px;
     box-shadow: 3px 3px 1px #d6d6d6;    
+}
+
+.box-housing:hover{
+    box-shadow:3px 3px 1px grey;
 }
 
 /*image housing*/
@@ -276,7 +282,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    margin-bottom: 30px;   
+    margin-bottom: 20px;  
 }
 
 /* box text + icon*/
@@ -307,7 +313,6 @@
     box-shadow: 3px 3px 1px #d6d6d6;
 }
 
-
 /*box picture popular*/
 .photo-popular{
     width: 45%;
@@ -320,16 +325,16 @@
 
 /*title picture popular*/
 .title-box-popular{
-    margin: 10px 10px 5px 50px;
+    margin: 10px 10px 5px 40px;
 }
 
 /*text picture popular*/
 .text-box-popular{
-    margin: 10px 10px 5px 50px;
+    margin: 10px 10px 5px 40px;
 }
 /*star picture popular*/
 .star-popular{
-    margin: 40px 10px 0 50px;
+    margin: 40px 10px 0px 40px;
 }
 
 /*full-star*/
@@ -339,7 +344,7 @@
 
 /*empty-star*/
 .color .fas.fa-star {
-    color: #d9d9d9
+    color: #d9d9d9;
 }
 
 /*-----activities-----*/
@@ -516,7 +521,7 @@
 
 /*bloc footer*/
 .bloc-footer{
-    padding-right: 0;
+    padding-right: 0
 }
 
 footer a{
